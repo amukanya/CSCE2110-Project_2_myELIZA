@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 
+// Stores prior user statements and detects repeated input.
 class ConversationHistory {
 public:
     bool hasSeen(const std::string& input) const;

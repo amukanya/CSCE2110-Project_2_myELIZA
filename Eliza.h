@@ -5,6 +5,7 @@
 #include "GenericResponses.h"
 #include <string>
 
+// Coordinates input processing, history checking, and response generation.
 class Eliza {
 public:
     void run();
